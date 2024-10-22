@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('../static/banking-technology.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent box */
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #000; /* Dark color for the heading */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333; /* Slightly lighter text color */
+            line-height: 1.6;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745; /* Green button color */
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome to Loan Prediction</h1>
+        <p>Loan Approval is based on a lot of things. Rather than going to a bank and getting rejected, we made it simple. You can get your loan approval prediction by our machine learning model. To predict, we need some of your information.</p>
+        <a href="/predict">Predict</a>
+    </div>
+</body>
+</html>
